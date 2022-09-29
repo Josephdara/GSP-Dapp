@@ -1,17 +1,16 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "../styles/Home.module.css";
 import Web3Modal from "web3modal";
-import { ethers } from "ethers";
+import { ethers, Contract } from "ethers";
 import Head from "next/head";
 import { NFT_CONTRACT_ABI, NFT_CONTRACT_ADDRESS } from "../constant";
 
 export default function Home() {
   const [isOwner, setIsOwner] = useState(false);
   const [wlSaleStarted, setWLSaleStarted] = useState(false);
-  const [wlSaleEnded, setWlSaleEnded]= useState(false)
+  const [wlSaleEnded, setWlSaleEnded] = useState(false);
   const [walletConnected, setWalletConnected] = useState(false);
   const web3ModalRef = useRef();
-
 
   const checkWLSaleEnded = async () => {
     try {
@@ -22,9 +21,9 @@ export default function Home() {
         provider
       );
       const wLSaleEndtime = await nftContract.wlSaleEnded();
-      const currentTime = Date.now()/1000
-      const hasWlSaleEnded = wLSaleEndtime.lt(Math.floor(currentTime))
-      setWlSaleEnded(hasWlSaleEnded)
+      const currentTime = Date.now() / 1000;
+      const hasWlSaleEnded = wLSaleEndtime.lt(Math.floor(currentTime));
+      setWlSaleEnded(hasWlSaleEnded);
     } catch (error) {
       console.error(error);
     }
@@ -100,6 +99,7 @@ export default function Home() {
       const signer = web3Provider.getSigner();
       return signer;
     }
+    return web3Provider;
   };
   useEffect(() => {
     if (!walletConnected) {
@@ -108,7 +108,7 @@ export default function Home() {
         providerOptions: {},
         disableInjectedProvider: false,
       });
-      connectWallet()
+      connectWallet();
       checkWLSaleStarted();
     }
   }, []);
