@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Web3Modal from "web3modal";
 import { ethers, Contract, utils } from "ethers";
 import Head from "next/head";
+import Image from "next/image";
 import { NFT_CONTRACT_ABI, NFT_CONTRACT_ADDRESS } from "../constant";
 
 export default function Home() {
@@ -11,7 +12,23 @@ export default function Home() {
   const [wlSaleEnded, setWlSaleEnded] = useState(false);
   const [walletConnected, setWalletConnected] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [tokenMinted, setTokenMinted] = useState("");
   const web3ModalRef = useRef();
+
+  const getMintedTokens = async () => {
+    try {
+      const provider = await getProviderOrSigner();
+      const nftContract = new Contract(
+        NFT_CONTRACT_ADDRESS,
+        NFT_CONTRACT_ABI,
+        provider
+      );
+      const tokens = await nftContract.tokenIDs();
+      setTokenMinted(tokens.toString());
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
   const publicMint = async () => {
     try {
@@ -24,7 +41,9 @@ export default function Home() {
       const tx = await nftContract.wLMint({
         value: utils.parseEther("0.01"),
       });
+      setLoading(true);
       await tx.wait();
+      setLoading(false);
       window.alert("Welcome to glory sound prep");
     } catch (error) {
       console.error(error);
@@ -42,7 +61,9 @@ export default function Home() {
       const tx = await nftContract.wLMint({
         value: utils.parseEther("0.005"),
       });
+      setLoading(true);
       await tx.wait();
+      setLoading(false);
       window.alert("Welcome to glory sound prep");
     } catch (error) {
       console.error(error);
@@ -93,7 +114,9 @@ export default function Home() {
         signer
       );
       const tx = await nftContract.startWLSale();
+      loading(true);
       await tx.wait();
+      setLoading(false);
       setWLSaleStarted(true);
     } catch (error) {
       console.error(error);
@@ -143,10 +166,21 @@ export default function Home() {
   const onPageLoad = async () => {
     await connectWallet();
     await getOwner();
+    await getMintedTokens();
     const wlSaleStarted = await checkWLSaleStarted();
     if (wlSaleStarted) {
       await checkWLSaleEnded();
     }
+
+    setInterval(async () => {
+      await getMintedTokens();
+    }, 3 * 1000);
+    setInterval(async () => {
+      const wlSaleStarted = await checkWLSaleStarted();
+      if (wlSaleStarted) {
+        await checkWLSaleEnded();
+      }
+    }, 3 * 1000);
   };
   function renderBody() {
     if (!walletConnected) {
@@ -155,7 +189,7 @@ export default function Home() {
       );
     }
     if (loading) {
-      return <span className={styles.description}>Loading.....</span>;
+      return <div className={styles.description}>Loading.....</div>;
     }
     if (isOwner && !wlSaleStarted) {
       return (
@@ -168,19 +202,20 @@ export default function Home() {
     if (!wlSaleStarted) {
       return (
         <div>
-          <span className={styles.description}>
+          <div className={styles.description}>
             WhiteList Mint is yet To start
-          </span>
+          </div>
         </div>
       );
     }
     if (wlSaleStarted && !wlSaleEnded) {
       return (
         <div>
-          <span className={styles.description}>
+          <div className={styles.description}>
             WhiteList Mint has Started, You can begin minting if you are
-            whitelisted
-          </span>
+            whitelisted.
+          </div>
+          <div>{tokenMinted} out of 1000 have been minted</div>
           <button className={styles.button} onClick={wlMint}>
             WhiteList Mint
           </button>
@@ -190,9 +225,9 @@ export default function Home() {
     if (wlSaleEnded) {
       return (
         <div>
-          <span className={styles.description}>
+          <div className={styles.description}>
             WhiteList Mint has Ended, You can mint during the public Sale
-          </span>
+          </div>
           <button className={styles.button} onClick={publicMint}>
             WhiteList Mint
           </button>
@@ -219,10 +254,16 @@ export default function Home() {
       <div className={styles.main}>
         <div>
           <h1 className={styles.title}>Glory Sound Prep Collection</h1>
-          <span className={styles.description}>Mint your glory sound prep NFT</span>
+          <div className={styles.description}>
+            Mint your glory sound prep NFT
+          </div>
         </div>
         {renderBody()}
+        <div>
+          <img className={styles.image} src="./crypto-devs.svg"></img>
+        </div>
       </div>
+     
       <footer className={styles.footer}>
         Made with &#10084; by josephdara.eth
       </footer>
