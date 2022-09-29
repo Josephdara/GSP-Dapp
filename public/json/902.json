@@ -1,0 +1,34 @@
+{
+  "id": "00ab133137bf4931d866524c66500d50fb078c73",
+  "name": "#902",
+  "description": "Open Punks",
+  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/902.png",
+  "edition": 902,
+  "date": 1664473511868,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Body 2"
+    },
+    {
+      "trait_type": "Hats and Hair",
+      "value": "Helicopter"
+    },
+    {
+      "trait_type": "Eyes and Glasses",
+      "value": "Green Eyes"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigarette"
+    }
+  ]
+}

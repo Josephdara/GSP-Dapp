@@ -1,0 +1,34 @@
+{
+  "id": "737430834c3b65d5e4dacc4a180a5e60119ae6b3",
+  "name": "#298",
+  "description": "Open Punks",
+  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/298.png",
+  "edition": 298,
+  "date": 1664473322117,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Sky"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Body 7"
+    },
+    {
+      "trait_type": "Hats and Hair",
+      "value": "Full Grown"
+    },
+    {
+      "trait_type": "Eyes and Glasses",
+      "value": "Pink Eyes"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral"
+    }
+  ]
+}
