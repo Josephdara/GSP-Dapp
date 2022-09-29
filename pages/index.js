@@ -39,7 +39,7 @@ export default function Home() {
       );
       const owner = await nftContract.owner();
       const userAddy = signer.getAddress();
-      if (owner.toLowerCase() == userAddy.toLowerCase()) {
+      if (owner.toLowerCase() == (await userAddy).toLowerCase()) {
         setIsOwner(true);
       }
     } catch (error) {
@@ -73,8 +73,10 @@ export default function Home() {
       );
       const isWLSaleStarted = await nftContract.wlSaleStarted();
       setWLSaleStarted(isWLSaleStarted);
+      return isWLSaleStarted;
     } catch (error) {
       console.error(error);
+      return false;
     }
   };
 
@@ -101,6 +103,35 @@ export default function Home() {
     }
     return web3Provider;
   };
+  const onPageLoad = async () => {
+    await connectWallet();
+    await getOwner();
+    const wlSaleStarted = await checkWLSaleStarted();
+    if (wlSaleStarted) {
+      await checkWLSaleEnded();
+    }
+  };
+  function renderBody() {
+    if (!walletConnected) {
+      return (
+        <button onClick={connectWallet} className={styles.button}></button>
+      );
+    }
+    if (isOwner && !wlSaleStarted) {
+      return (
+        <button onClick={startWLSale} className={styles.button}>
+          {" "}
+          Start PreSale
+        </button>
+      );
+    }
+    if (!wlSaleStarted) {
+    }
+    if (wlSaleStarted && !wlSaleEnded) {
+    }
+    if (wlSaleEnded) {
+    }
+  }
   useEffect(() => {
     if (!walletConnected) {
       web3ModalRef.current = new Web3Modal({
@@ -108,8 +139,7 @@ export default function Home() {
         providerOptions: {},
         disableInjectedProvider: false,
       });
-      connectWallet();
-      checkWLSaleStarted();
+      onPageLoad();
     }
   }, []);
 
@@ -119,12 +149,7 @@ export default function Home() {
         <title>Glory Sound Prep NFT</title>
       </Head>
       <div className={styles.main}>
-        {!walletConnected ? (
-          <button onClick={connectWallet} className={styles.button}>
-            {" "}
-            Connect Wallet
-          </button>
-        ) : null}
+     {renderBody()}
       </div>
     </div>
   );
