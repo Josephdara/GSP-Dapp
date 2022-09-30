@@ -1,28 +1,26 @@
-{
-  "attributes": [
-    {
-      "trait_type": "Backgrounds",
-      "value": "Charcoal"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Body 7"
-    },
-    {
-      "trait_type": "Hats and Hair",
-      "value": "Full Grown"
-    },
-    {
-      "trait_type": "Eyes and Glasses",
-      "value": "Thug Glasses"
-    },
-    {
-      "trait_type": "Nose",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Cigarette"
-    }
-  ]
-}
+[
+  {
+    "trait_type": "Backgrounds",
+    "value": "Charcoal"
+  },
+  {
+    "trait_type": "Face",
+    "value": "Body 7"
+  },
+  {
+    "trait_type": "Hats and Hair",
+    "value": "Full Grown"
+  },
+  {
+    "trait_type": "Eyes and Glasses",
+    "value": "Thug Glasses"
+  },
+  {
+    "trait_type": "Nose",
+    "value": "Standard"
+  },
+  {
+    "trait_type": "Mouth",
+    "value": "Cigarette"
+  }
+]
