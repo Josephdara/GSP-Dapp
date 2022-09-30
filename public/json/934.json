@@ -1,26 +1,20 @@
 {
-  "id": "a6c32d179cf0c06ee3b9bcd60c65713180fa8f3b",
-  "name": "#934",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/934.png",
-  "edition": 934,
-  "date": 1664473521574,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Grey"
+      "value": "Coral"
     },
     {
       "trait_type": "Face",
-      "value": "Body 7"
+      "value": "Body 8"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Helicopter"
+      "value": "Head Band"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "VR Glasses"
+      "value": "Blue Eyes"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Neutral"
+      "value": "Smile"
     }
   ]
 }

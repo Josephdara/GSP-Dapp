@@ -1,14 +1,8 @@
 {
-  "id": "8d7e0a6604e14d0e4a4f834fafa938556b7cc6b6",
-  "name": "#138",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/138.png",
-  "edition": 138,
-  "date": 1664473274294,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Coral"
+      "value": "Charcoal"
     },
     {
       "trait_type": "Face",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Pipe"
+      "value": "Frown"
     }
   ]
 }

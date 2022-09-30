@@ -1,18 +1,12 @@
 {
-  "id": "389a37bcb6f5c8ff7b9ea3603c692cbbe817add7",
-  "name": "#120",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/120.png",
-  "edition": 120,
-  "date": 1664473268965,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Charcoal"
+      "value": "White"
     },
     {
       "trait_type": "Face",
-      "value": "Body 7"
+      "value": "Body 2"
     },
     {
       "trait_type": "Hats and Hair",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Cigarette"
+      "value": "Frown"
     }
   ]
 }

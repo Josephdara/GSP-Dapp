@@ -1,10 +1,4 @@
 {
-  "id": "ba37b63b035064d3971169fffe955b03ea4187b1",
-  "name": "#394",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/394.png",
-  "edition": 394,
-  "date": 1664473351640,
   "attributes": [
     {
       "trait_type": "Backgrounds",
@@ -12,11 +6,11 @@
     },
     {
       "trait_type": "Face",
-      "value": "Body 7"
+      "value": "Body 1"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Purple Cap"
+      "value": "Mohawk"
     },
     {
       "trait_type": "Eyes and Glasses",

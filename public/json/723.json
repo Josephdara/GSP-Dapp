@@ -1,26 +1,20 @@
 {
-  "id": "372b1c48b2626e37d208855fa7ba31175235fa1d",
-  "name": "#723",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/723.png",
-  "edition": 723,
-  "date": 1664473457088,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "White"
+      "value": "Sky"
     },
     {
       "trait_type": "Face",
-      "value": "Body 8"
+      "value": "Body 2"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Purple Cap"
+      "value": "Full Grown"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Eye Patch"
+      "value": "Blue Eyes"
     },
     {
       "trait_type": "Nose",

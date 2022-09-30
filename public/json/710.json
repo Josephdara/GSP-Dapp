@@ -1,14 +1,8 @@
 {
-  "id": "8761467b49198db7051802c63a77610183bffddb",
-  "name": "#710",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/710.png",
-  "edition": 710,
-  "date": 1664473453161,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Charcoal"
+      "value": "Sky"
     },
     {
       "trait_type": "Face",
@@ -16,7 +10,7 @@
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Head Band"
+      "value": "Trimmed"
     },
     {
       "trait_type": "Eyes and Glasses",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Neutral"
+      "value": "Smile"
     }
   ]
 }

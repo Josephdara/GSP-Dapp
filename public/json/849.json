@@ -1,26 +1,20 @@
 {
-  "id": "4b77327c461d698398fa9b3ad0a2c28c7f5b6b07",
-  "name": "#849",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/849.png",
-  "edition": 849,
-  "date": 1664473496048,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "White"
+      "value": "Sky"
     },
     {
       "trait_type": "Face",
-      "value": "Body 3"
+      "value": "Body 7"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Pony Tails"
+      "value": "Mohawk"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Eye Patch"
+      "value": "Purple Sunglasses"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Cigarette"
+      "value": "Neutral"
     }
   ]
 }

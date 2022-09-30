@@ -1,26 +1,20 @@
 {
-  "id": "5140706a5e68a7ec8444295c2c166c83ace309f8",
-  "name": "#666",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/666.png",
-  "edition": 666,
-  "date": 1664473440130,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Grey"
+      "value": "Coral"
     },
     {
       "trait_type": "Face",
-      "value": "Body 2"
+      "value": "Body 6"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Yellow Beanie"
+      "value": "Purple Cap"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Eye Patch"
+      "value": "Blue Eyes"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Smile"
     }
   ]
 }

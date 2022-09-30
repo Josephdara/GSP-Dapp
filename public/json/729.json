@@ -1,14 +1,8 @@
 {
-  "id": "7eba9f9dd1e0a0d8e43b0a16e8bdca28b7d5e5de",
-  "name": "#729",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/729.png",
-  "edition": 729,
-  "date": 1664473458922,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Charcoal"
+      "value": "Coral"
     },
     {
       "trait_type": "Face",
@@ -16,11 +10,11 @@
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "No Hair"
+      "value": "Mohawk"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Thug Glasses"
+      "value": "Blue Eyes"
     },
     {
       "trait_type": "Nose",

@@ -1,26 +1,20 @@
 {
-  "id": "733607ba97300103fd68ebbfc2ef63325c635be1",
-  "name": "#592",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/592.png",
-  "edition": 592,
-  "date": 1664473417243,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Grey"
+      "value": "White"
     },
     {
       "trait_type": "Face",
-      "value": "Body 3"
+      "value": "Body 1"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Full Grown"
+      "value": "Helicopter"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "VR Glasses"
+      "value": "Thug Glasses"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Neutral"
+      "value": "Frown"
     }
   ]
 }

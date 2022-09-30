@@ -1,10 +1,4 @@
 {
-  "id": "17f26d5135760af07bf0103057a532f8f391b4cb",
-  "name": "#111",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/111.png",
-  "edition": 111,
-  "date": 1664473266302,
   "attributes": [
     {
       "trait_type": "Backgrounds",
@@ -12,15 +6,15 @@
     },
     {
       "trait_type": "Face",
-      "value": "Body 2"
+      "value": "Body 3"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Mohawk"
+      "value": "Helicopter"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "White 3D Glasses"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Nose",

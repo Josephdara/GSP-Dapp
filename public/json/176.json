@@ -1,14 +1,8 @@
 {
-  "id": "e1842a89bace3ccb485d9f8a401e0a3a4f23c8e7",
-  "name": "#176",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/176.png",
-  "edition": 176,
-  "date": 1664473286011,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Sky"
+      "value": "Grey"
     },
     {
       "trait_type": "Face",
@@ -16,11 +10,11 @@
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Helicopter"
+      "value": "Head Band"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Blue Eyes"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Pipe"
     }
   ]
 }

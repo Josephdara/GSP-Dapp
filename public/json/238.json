@@ -1,14 +1,8 @@
 {
-  "id": "c1bfbae113e157f991396b6ce3e7864627d9f0e5",
-  "name": "#238",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/238.png",
-  "edition": 238,
-  "date": 1664473304352,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Grey"
+      "value": "Coral"
     },
     {
       "trait_type": "Face",
@@ -20,7 +14,7 @@
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "White 3D Glasses"
+      "value": "Black Eyes"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Neutral"
+      "value": "Pipe"
     }
   ]
 }

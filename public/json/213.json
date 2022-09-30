@@ -1,26 +1,20 @@
 {
-  "id": "813f7aaef8ad3eb036bcbcf26c388c3021b14404",
-  "name": "#213",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/213.png",
-  "edition": 213,
-  "date": 1664473296967,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Sky"
+      "value": "Coral"
     },
     {
       "trait_type": "Face",
-      "value": "Body 6"
+      "value": "Body 7"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Head Band"
+      "value": "Cowboy Hat"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Blue Eyes"
+      "value": "Pink Eyes"
     },
     {
       "trait_type": "Nose",

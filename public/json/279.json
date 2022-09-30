@@ -1,18 +1,12 @@
 {
-  "id": "474f7e6a44a761fd528dfa001e4fc9cde4ad6f1a",
-  "name": "#279",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/279.png",
-  "edition": 279,
-  "date": 1664473316537,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Sky"
+      "value": "Coral"
     },
     {
       "trait_type": "Face",
-      "value": "Body 3"
+      "value": "Body 8"
     },
     {
       "trait_type": "Hats and Hair",
@@ -20,7 +14,7 @@
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Pink Eyes"
+      "value": "Green Eyes"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Cigarette"
     }
   ]
 }

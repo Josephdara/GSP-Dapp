@@ -1,14 +1,8 @@
 {
-  "id": "7d3ed3f858826499633f321b42f7c7ef168cda1e",
-  "name": "#802",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/802.png",
-  "edition": 802,
-  "date": 1664473481676,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "White"
+      "value": "Charcoal"
     },
     {
       "trait_type": "Face",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Neutral"
     }
   ]
 }

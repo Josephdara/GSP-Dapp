@@ -1,14 +1,8 @@
 {
-  "id": "7134f6f5c6827937e0266f8518c86f63f3237783",
-  "name": "#266",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/266.png",
-  "edition": 266,
-  "date": 1664473312752,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Charcoal"
+      "value": "Sky"
     },
     {
       "trait_type": "Face",
@@ -20,7 +14,7 @@
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Eye Patch"
+      "value": "White 3D Glasses"
     },
     {
       "trait_type": "Nose",

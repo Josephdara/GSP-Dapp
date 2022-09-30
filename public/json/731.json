@@ -1,10 +1,4 @@
 {
-  "id": "1c1cb2c9795ad8b8cdf0c4fed6aa7bf672d21667",
-  "name": "#731",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/731.png",
-  "edition": 731,
-  "date": 1664473459504,
   "attributes": [
     {
       "trait_type": "Backgrounds",
@@ -12,11 +6,11 @@
     },
     {
       "trait_type": "Face",
-      "value": "Body 2"
+      "value": "Body 1"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Purple Cap"
+      "value": "Yellow Beanie"
     },
     {
       "trait_type": "Eyes and Glasses",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Neutral"
     }
   ]
 }

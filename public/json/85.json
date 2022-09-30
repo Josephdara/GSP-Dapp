@@ -1,18 +1,12 @@
 {
-  "id": "f7395df7fc7b18834f28237dbb0e35197267e3d6",
-  "name": "#85",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/85.png",
-  "edition": 85,
-  "date": 1664473257357,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Coral"
+      "value": "White"
     },
     {
       "trait_type": "Face",
-      "value": "Body 1"
+      "value": "Body 7"
     },
     {
       "trait_type": "Hats and Hair",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Pipe"
+      "value": "Frown"
     }
   ]
 }

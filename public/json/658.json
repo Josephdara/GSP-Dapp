@@ -1,26 +1,20 @@
 {
-  "id": "d82203a34b937404ab1b2b4a1ed7a2c148b5dd76",
-  "name": "#658",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/658.png",
-  "edition": 658,
-  "date": 1664473437751,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Charcoal"
+      "value": "White"
     },
     {
       "trait_type": "Face",
-      "value": "Body 2"
+      "value": "Body 3"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Cowboy Hat"
+      "value": "Yellow Beanie"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Eye Patch"
+      "value": "Thug Glasses"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Cigarette"
+      "value": "Frown"
     }
   ]
 }

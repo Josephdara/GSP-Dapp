@@ -5,4 +5,7 @@ export default function handler(req, res) {
   const image = `https://raw.githubusercontent.com/Josephdara/GSP-Dapp/main/public/images/${
     Number(tokenID) - 1
   }.png`;
+  const attributes = `https://raw.githubusercontent.com/Josephdara/GSP-Dapp/main/public/json/${
+    Number(tokenID) - 1
+  }`
 }

@@ -1,26 +1,20 @@
 {
-  "id": "b6bee8422411e550148f63776d04f46eeba45509",
-  "name": "#732",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/732.png",
-  "edition": 732,
-  "date": 1664473459812,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Sky"
+      "value": "Grey"
     },
     {
       "trait_type": "Face",
-      "value": "Body 3"
+      "value": "Body 7"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Full Grown"
+      "value": "Cowboy Hat"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "VR Glasses"
+      "value": "White 3D Glasses"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Pipe"
     }
   ]
 }

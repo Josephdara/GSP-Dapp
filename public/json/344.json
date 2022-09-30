@@ -1,14 +1,8 @@
 {
-  "id": "2fd627570a6c19645ad996dbc1beef11e837dd81",
-  "name": "#344",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/344.png",
-  "edition": 344,
-  "date": 1664473336423,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Coral"
+      "value": "White"
     },
     {
       "trait_type": "Face",
@@ -20,7 +14,7 @@
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Pink Eyes"
+      "value": "Blue Eyes"
     },
     {
       "trait_type": "Nose",

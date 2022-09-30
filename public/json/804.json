@@ -1,22 +1,16 @@
 {
-  "id": "18490324b1e09a2303eca5fd800bebc4c82b2c67",
-  "name": "#804",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/804.png",
-  "edition": 804,
-  "date": 1664473482254,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Sky"
+      "value": "Charcoal"
     },
     {
       "trait_type": "Face",
-      "value": "Body 1"
+      "value": "Body 2"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Purple Cap"
+      "value": "Head Band"
     },
     {
       "trait_type": "Eyes and Glasses",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Cigarette"
+      "value": "Smile"
     }
   ]
 }

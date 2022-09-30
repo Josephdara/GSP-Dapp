@@ -1,22 +1,16 @@
 {
-  "id": "be269ab2f3a067455c92446c0ebe2c83be1127ad",
-  "name": "#971",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/971.png",
-  "edition": 971,
-  "date": 1664473532824,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Coral"
+      "value": "Grey"
     },
     {
       "trait_type": "Face",
-      "value": "Body 3"
+      "value": "Body 8"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Bandana"
+      "value": "Head Band"
     },
     {
       "trait_type": "Eyes and Glasses",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smile"
+      "value": "Pipe"
     }
   ]
 }

@@ -1,22 +1,16 @@
 {
-  "id": "744284c0ed81da4437788d07bef505f1a269be31",
-  "name": "#302",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/302.png",
-  "edition": 302,
-  "date": 1664473323258,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Grey"
+      "value": "Coral"
     },
     {
       "trait_type": "Face",
-      "value": "Body 6"
+      "value": "Body 8"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Mohawk"
+      "value": "Trimmed"
     },
     {
       "trait_type": "Eyes and Glasses",

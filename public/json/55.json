@@ -1,10 +1,4 @@
 {
-  "id": "e50c73b693e73bb3e00bc2b3b7448a4720d43999",
-  "name": "#55",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/55.png",
-  "edition": 55,
-  "date": 1664473248133,
   "attributes": [
     {
       "trait_type": "Backgrounds",
@@ -12,15 +6,15 @@
     },
     {
       "trait_type": "Face",
-      "value": "Body 1"
+      "value": "Body 3"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Mohawk"
+      "value": "Bandana"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "VR Glasses"
+      "value": "Black Eyes"
     },
     {
       "trait_type": "Nose",

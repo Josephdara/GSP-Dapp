@@ -1,14 +1,8 @@
 {
-  "id": "fbc7c55dcc2a107b5afab03c459f4e043f8823c3",
-  "name": "#346",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/346.png",
-  "edition": 346,
-  "date": 1664473336996,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "White"
+      "value": "Sky"
     },
     {
       "trait_type": "Face",
@@ -16,11 +10,11 @@
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Purple Cap"
+      "value": "Trimmed"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Blue Eyes"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Nose",

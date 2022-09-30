@@ -1,14 +1,8 @@
 {
-  "id": "966fc40da438369e75253a496d7c4a1008856145",
-  "name": "#490",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/490.png",
-  "edition": 490,
-  "date": 1664473385308,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Sky"
+      "value": "White"
     },
     {
       "trait_type": "Face",

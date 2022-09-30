@@ -1,14 +1,8 @@
 {
-  "id": "ce413639bcc60497f6d201e947972c39f8bce6cd",
-  "name": "#756",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/756.png",
-  "edition": 756,
-  "date": 1664473468057,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Grey"
+      "value": "White"
     },
     {
       "trait_type": "Face",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Pipe"
+      "value": "Smile"
     }
   ]
 }

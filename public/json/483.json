@@ -1,10 +1,4 @@
 {
-  "id": "3a9603f9ab8e53f00ca41266dc8700d64929993d",
-  "name": "#483",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/483.png",
-  "edition": 483,
-  "date": 1664473382874,
   "attributes": [
     {
       "trait_type": "Backgrounds",
@@ -12,15 +6,15 @@
     },
     {
       "trait_type": "Face",
-      "value": "Body 2"
+      "value": "Body 3"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Full Grown"
+      "value": "Mohawk"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Green Eyes"
+      "value": "White 3D Glasses"
     },
     {
       "trait_type": "Nose",

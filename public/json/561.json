@@ -1,26 +1,20 @@
 {
-  "id": "fa2ce7f59d1603ea016f9a24c7cfc7cd0ea5e96c",
-  "name": "#561",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/561.png",
-  "edition": 561,
-  "date": 1664473407392,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "White"
+      "value": "Sky"
     },
     {
       "trait_type": "Face",
-      "value": "Body 3"
+      "value": "Body 2"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Messy Hair"
+      "value": "Purple Cap"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "White 3D Glasses"
+      "value": "Blue Eyes"
     },
     {
       "trait_type": "Nose",

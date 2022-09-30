@@ -1,26 +1,20 @@
 {
-  "id": "2c646c81e84a48c3f4f9f5e296f46d56186cdd2c",
-  "name": "#418",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/418.png",
-  "edition": 418,
-  "date": 1664473358632,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Sky"
+      "value": "Charcoal"
     },
     {
       "trait_type": "Face",
-      "value": "Body 3"
+      "value": "Body 7"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Cowboy Hat"
+      "value": "Bandana"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Green Eyes"
+      "value": "Pink Eyes"
     },
     {
       "trait_type": "Nose",

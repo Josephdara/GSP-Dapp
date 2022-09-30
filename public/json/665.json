@@ -1,26 +1,20 @@
 {
-  "id": "0f738cb3d092ec75ec387452205ef08bc60da0d7",
-  "name": "#665",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/665.png",
-  "edition": 665,
-  "date": 1664473439823,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "White"
+      "value": "Grey"
     },
     {
       "trait_type": "Face",
-      "value": "Body 1"
+      "value": "Body 2"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Full Grown"
+      "value": "Pony Tails"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Thug Glasses"
+      "value": "Purple Sunglasses"
     },
     {
       "trait_type": "Nose",

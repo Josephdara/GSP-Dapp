@@ -1,22 +1,16 @@
 {
-  "id": "7fc805b24784c4a85cfcb0eb50799cf24f5cd132",
-  "name": "#570",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/570.png",
-  "edition": 570,
-  "date": 1664473410118,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Coral"
+      "value": "Charcoal"
     },
     {
       "trait_type": "Face",
-      "value": "Body 1"
+      "value": "Body 2"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Bandana"
+      "value": "Pony Tails"
     },
     {
       "trait_type": "Eyes and Glasses",

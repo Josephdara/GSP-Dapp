@@ -1,10 +1,4 @@
 {
-  "id": "bfd53a885c755c31dd7126630f77ac06e75b2f9b",
-  "name": "#348",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/348.png",
-  "edition": 348,
-  "date": 1664473337559,
   "attributes": [
     {
       "trait_type": "Backgrounds",
@@ -12,15 +6,15 @@
     },
     {
       "trait_type": "Face",
-      "value": "Body 6"
+      "value": "Body 1"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Beanie"
+      "value": "Head Band"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Blue Eyes"
+      "value": "Purple Sunglasses"
     },
     {
       "trait_type": "Nose",

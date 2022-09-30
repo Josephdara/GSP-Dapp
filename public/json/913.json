@@ -1,10 +1,4 @@
 {
-  "id": "cfa76e0f2da0cbbdcb93f0c768358f2e5e1ec732",
-  "name": "#913",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/913.png",
-  "edition": 913,
-  "date": 1664473515230,
   "attributes": [
     {
       "trait_type": "Backgrounds",
@@ -16,11 +10,11 @@
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Head Band"
+      "value": "Mohawk"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Green Eyes"
+      "value": "VR Glasses"
     },
     {
       "trait_type": "Nose",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Frown"
+      "value": "Cigarette"
     }
   ]
 }

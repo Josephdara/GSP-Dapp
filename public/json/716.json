@@ -1,14 +1,8 @@
 {
-  "id": "da85dd7892a8d957dd9b9eb66329fc8f98ddb38c",
-  "name": "#716",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/716.png",
-  "edition": 716,
-  "date": 1664473455060,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Grey"
+      "value": "Sky"
     },
     {
       "trait_type": "Face",
@@ -28,7 +22,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Neutral"
+      "value": "Pipe"
     }
   ]
 }

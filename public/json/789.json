@@ -1,10 +1,4 @@
 {
-  "id": "d01d39d66b3e4554512220c15448d988325481e4",
-  "name": "#789",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/789.png",
-  "edition": 789,
-  "date": 1664473477892,
   "attributes": [
     {
       "trait_type": "Backgrounds",
@@ -12,11 +6,11 @@
     },
     {
       "trait_type": "Face",
-      "value": "Body 2"
+      "value": "Body 3"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Full Grown"
+      "value": "Pony Tails"
     },
     {
       "trait_type": "Eyes and Glasses",

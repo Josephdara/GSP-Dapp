@@ -1,26 +1,20 @@
 {
-  "id": "3e6c29f085fd324527b3446883dc734ab5bd291f",
-  "name": "#549",
-  "description": "Open Punks",
-  "image": "ipfs://QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/549.png",
-  "edition": 549,
-  "date": 1664473403763,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "White"
+      "value": "Sky"
     },
     {
       "trait_type": "Face",
-      "value": "Body 7"
+      "value": "Body 3"
     },
     {
       "trait_type": "Hats and Hair",
-      "value": "Beanie"
+      "value": "Bandana"
     },
     {
       "trait_type": "Eyes and Glasses",
-      "value": "Purple Sunglasses"
+      "value": "VR Glasses"
     },
     {
       "trait_type": "Nose",
