@@ -1,5 +1,4 @@
-[
-  {
+{
     "trait_type": "Backgrounds",
     "value": "Coral"
   },
@@ -22,5 +21,4 @@
   {
     "trait_type": "Mouth",
     "value": "Neutral"
-  }
-]
+}

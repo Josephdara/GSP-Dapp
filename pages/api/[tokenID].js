@@ -5,15 +5,15 @@ export default function handler(req, res) {
   const image = `https://raw.githubusercontent.com/Josephdara/GSP-Dapp/main/public/images/${
     Number(tokenID)
   }.png`;
-  const cid = `[https://raw.githubusercontent.com/Josephdara/GSP-Dapp/main/public/json/${
+  const cid = `https://raw.githubusercontent.com/Josephdara/GSP-Dapp/main/public/json/${
     Number(tokenID)
-  }.json]`;
-  const attributes = cid
+  }.json`;
+  const attributes = [cid]
 
   return res.json({
-    name: name,
-    description: description,
-    image: image,
-    attributes: attributes,
+    "name": name,
+    "description": description,
+    "image": image,
+    "attributes": attributes,
   });
 }
