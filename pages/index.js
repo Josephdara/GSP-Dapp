@@ -38,7 +38,7 @@ export default function Home() {
         NFT_CONTRACT_ABI,
         signer
       );
-      const tx = await nftContract.wLMint({
+      const tx = await nftContract.mint({
         value: utils.parseEther("0.01"),
       });
       setLoading(true);
@@ -215,7 +215,7 @@ export default function Home() {
             WhiteList Mint has Started, You can begin minting if you are
             whitelisted.
           </div>
-          <div>{tokenMinted} out of 1000 have been minted</div>
+          
           <button className={styles.button} onClick={wlMint}>
             WhiteList Mint
           </button>
@@ -229,7 +229,7 @@ export default function Home() {
             WhiteList Mint has Ended, You can mint during the public Sale
           </div>
           <button className={styles.button} onClick={publicMint}>
-            WhiteList Mint
+            Public Mint
           </button>
         </div>
       );
@@ -257,6 +257,7 @@ export default function Home() {
           <div className={styles.description}>
             Mint your glory sound prep NFT
           </div>
+          <div>{tokenMinted} out of 1000 have been minted</div>
         </div>
         {renderBody()}
         <div>

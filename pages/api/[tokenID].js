@@ -7,5 +7,12 @@ export default function handler(req, res) {
   }.png`;
   const attributes = `https://raw.githubusercontent.com/Josephdara/GSP-Dapp/main/public/json/${
     Number(tokenID) - 1
-  }`
+  }.json`;
+
+  return res.json({
+    name: name,
+    description: description,
+    image: image,
+    attributes: attributes,
+  });
 }
